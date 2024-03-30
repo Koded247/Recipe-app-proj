@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL](  )
+- Live Site URL: [live site URL]( https://koded247.github.io/Recipe-app-proj/)
 
 
 ### Built with
