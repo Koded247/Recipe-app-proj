@@ -1,8 +1,17 @@
-body, html {
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  /* margin: 0;
+  padding: 0; */
   height: 100%;
   background: rgb(181, 144, 7);
+  margin-bottom: 5rem;
 }
 
 .container {
@@ -11,6 +20,7 @@ body, html {
   align-items: center;
   justify-content: center;
   height: 100%;
+  margin-top: 5rem;
 }
 
 input[type="text"] {
@@ -43,6 +53,9 @@ input[type="text"] {
 #recipe-details {
   width: 80%;
   margin-top: 20px;
+  background: rgb(206, 203, 203);
+  padding: 2rem;
+  border-radius: 5px;
 }
 .recipe img {
   width: 100%; 
@@ -51,5 +64,17 @@ input[type="text"] {
   max-height: 480px; 
   border-radius: 5px; 
 
+}
+
+
+footer {
+  background: rgb(154, 101, 3);
+  text-align: center;
+  /* margin-top: 5rem; */
+  padding: 0.3rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 

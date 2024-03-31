@@ -1,4 +1,4 @@
-// Sample recipe data
+//recipe data and details 
 const recipes = [
     { name: "Pasta Carbonara", ingredients: ["spaghetti", "bacon", "eggs", "parmesan", "black pepper"], instructions: "Cook spaghetti. Fry bacon. Mix eggs and parmesan. Combine all.", image: "https://www.cookingclassy.com/wp-content/uploads/2020/10/spaghetti-carbonara-01-768x1152.jpg" },
     { name: "Chicken Curry", ingredients: ["chicken", "curry powder", "coconut milk", "onion", "garlic"], instructions: "Cook chicken. Fry onion and garlic. Add curry powder and coconut milk. Combine all.", image: "https://feastwithsafiya.com/wp-content/uploads/2022/03/chicken-curry-recipe.jpg" },
