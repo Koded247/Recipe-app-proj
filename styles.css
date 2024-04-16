@@ -79,3 +79,22 @@ footer {
   right: 0;
 }
 
+/* Media query for screens smaller than 768px (typical mobile devices) */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-top: 3rem; 
+  }
+
+  input[type="text"] {
+    width: 90%; 
+  }
+
+  #recipes {
+    width: 100%; 
+  }
+
+  .recipe {
+    width: 90%; 
+  }
+}
