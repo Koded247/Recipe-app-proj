@@ -71,7 +71,6 @@ input[type="text"] {
 footer {
   background: rgb(154, 101, 3);
   text-align: center;
-  /* margin-top: 5rem; */
   padding: 0.3rem 0;
   position: fixed;
   bottom: 0;
