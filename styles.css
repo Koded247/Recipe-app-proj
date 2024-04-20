@@ -79,7 +79,7 @@ footer {
   right: 0;
 }
 
-/* Media query for screens smaller than 768px (typical mobile devices) */
+/* MEDIA QUERY */
 
 @media only screen and (max-width: 768px) {
   .container {
