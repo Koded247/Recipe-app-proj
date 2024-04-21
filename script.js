@@ -36,3 +36,20 @@ function displayRecipeDetails(recipe) {
 
 // Initial display of recipes
 displayRecipes(recipes);
+
+
+// TO DISPLAY ONLY ONE RECIPE WHEN SEARCH ON MOBILE
+
+document.querySelector('input[type="text"]').addEventListener('input', function () {
+  const searchTerm = this.value.toLowerCase();
+  const recipes = document.querySelectorAll('.recipe');
+
+  recipes.forEach((recipe) => {
+    const recipeText = recipe.textContent.toLowerCase();
+    if (recipeText.includes(searchTerm)) {
+      recipe.classList.remove('hidden');
+    } else {
+      recipe.classList.add('hidden');
+    }
+  });
+});
